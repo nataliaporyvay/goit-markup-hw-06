@@ -56,22 +56,70 @@
           </ul>
         </address>
 
-        <button class="burder-btm" type="button">
+        <button class="burger-btm" type="button">
           <svg class="burger-icon" width="24" height="24">
-        <use href="./images/icons.svg#burger-icon"</use>
+        <use href="./images/icons.svg#burger-icon"></use>
         </svg></button>
       </div>
     </header>
 
-    <div class="mobile-menu">
-      <div class=" container mobile-menu-container"></div>
-<button class="mobile-menu-close">Close</button>
-<nav class="mobile-menu-nav">Navigation</nav>
-<address>Address</address>
-<div>Social link</div>
-    </div>
+   <div class="mobile-menu">
+  <div class="container mobile-menu-container">
+    <button class="mobile-menu-close"><svg width="24" height="24" class="close-icon">
+    <use href="./images/icons.svg#icon-close"></use>
+  </svg></button>
+
+    <nav class="mobile-menu-nav">
+      <ul class="navmenu-list">
+        <li><a href="#" class="navmenu-link logo-link">Studio</a></li>
+        <li><a href="#portfolio" class="navmenu-link">Portfolio</a></li>
+        <li><a href="#contacts" class="navmenu-link">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <address class="mobile-address">
+      <ul class="contactmenu-list">
+        <li>+11 (000) 111-11-11</li>
+        <li>info@devstudio.com</li>
+      </ul>
+    </address>
+
+   <ul class="social-list">
+  <li>
+    <a href="#" class="social-link">
+      <svg class="social-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="social-link">
+      <svg class="social-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-twitter"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="social-link">
+      <svg class="social-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="#" class="social-link">
+      <svg class="social-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-linkedin"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+
     <main>
-      <section class="hero hidden">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">
             Effective Solutions <br />
@@ -81,7 +129,7 @@
         </div>
       </section>
 
-      <section class="features hidden">
+      <section class="features">
         <div class="container">
           <h2 class="features-heading visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -137,7 +185,7 @@
         </div>
       </section>
 
-      <section class="team hidden">
+      <section class="team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -308,7 +356,7 @@
         </div>
       </section>
 
-      <section class="portfolio hidden">
+      <section class="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -426,7 +474,7 @@
       </section>
     </main>
 
-    <footer class="footer hidden">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-wrap">
           <a href="./index.html" class="footer-logo">
@@ -492,15 +540,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open hidden">
-       <div class="modal hidden">
+    <div class="backdrop">
+       <div class="modal">
   <button type="button" class="modal-close">
     <svg class="modal-close-icon" width="8" height="8">
       <use href="./images/icons.svg#icon-close"></use>
     </svg>
   </button>
 
-  <p class="modal-title">Leave your contacts and we will call you back</p>
+  <p class="modal-title ">Leave your contacts and we will call you back</p>
   <form class="modal-form">
     <div class="input-wrapper">
       <label for="user-name" class="input-label">Name</label>
